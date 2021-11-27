@@ -98,11 +98,11 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 First, start by nullifying the both the scores for Thomas High School 9th graders.
 >Old Thomas High School 9th Graders Scores
 
-![](resources/Old_student_data.png)
+![Old Thomas High School 9th Graders Scores](resources/Old_student_data.png)
 
 >New Thomas High School 9th Graders Scores
 
-![](resources/New_student_data.png)
+![New Thomas High School 9th Graders Scores](resources/New_student_data.png)
 
 When we check the student data, we will confirm that there are 416 students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
 
@@ -112,6 +112,7 @@ na_student_data_df = student_data_df.copy()
 na_student_data_df[student_data_df.isna().any(axis=1)]
 ```
 
+###School Summary
 
 >School Type Summary with Thomas High School 9th Graders Scores
 
@@ -119,8 +120,9 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 >School Type Summary without Thomas High School 9th Graders Scores
 
-![School Type Summary without Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
+![School Type Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
 
+When we compare the overall summary for all 15 schools in this disctrict, 
 
 
 ## Summary
