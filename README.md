@@ -88,12 +88,19 @@ student_data_df = pd.read_csv(student_data_to_load)
 Compare results for all analysis from before student scores cleaning and after student scores cleaning.
 
 #### 7. Acknowledging Limitations
-* Self limitations with pandas, therefore reference Stackover Flow multiple times. 
+* Self limitations with pandas, therefore reference Stackover Flow multiple times.
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Results](#results)
 
 ## Analysis
+>School Type Summary with Thomas High School 9th Graders Scores
+
+![School Type Summary with Thomas High School 9th Graders Scores](resources/Old_school_type_summary.png)
+
+>School Type Summary without Thomas High School 9th Graders Scores
+
+![School Type Summary without Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
 
 ## Summary
 
