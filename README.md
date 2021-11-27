@@ -102,7 +102,7 @@ First, start by nullifying the both the scores for Thomas High School 9th grader
 
 >New Thomas High School 9th Graders Scores
 
-![New Thomas High School 9th Graders Scores](resources/New_student_data.png)
+![New Thomas High School 9th Graders Scores](resources/Clean_student_data.png)
 
 When we check the student data, we will confirm that there are 416 students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
 
@@ -114,6 +114,19 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ###School Summary
 
+>District Summary with Thomas High School 9th Graders Scores
+
+![District Summary with Thomas High School 9th Graders Scores](resources/Old_distruct_summary.png)
+
+>District Summary without Thomas High School 9th Graders Scores
+
+![District Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_district_summary.png)
+
+When we compare the overall summary for all 15 schools in this district, we can see the overall  
+
+
+
+
 >School Type Summary with Thomas High School 9th Graders Scores
 
 ![School Type Summary with Thomas High School 9th Graders Scores](resources/Old_school_type_summary.png)
@@ -121,9 +134,6 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 >School Type Summary without Thomas High School 9th Graders Scores
 
 ![School Type Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
-
-When we compare the overall summary for all 15 schools in this disctrict, 
-
 
 ## Summary
 
