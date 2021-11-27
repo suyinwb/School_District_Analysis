@@ -62,8 +62,8 @@ students_complete.csv & schools_complete.csv
 #### 3. Define Strategy & Metrics
 **Resource:** Python 3.7, Anaconda, Jupyter Notebook
 
-Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
-Find the total of Thomas High School 9th graders.
+1. Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
+2. Recalculate the scores for Thomas High School by only calculating the scores for 10th to 12th graders. 
 
 After we've cleaned up the student data above, recalculate for:
 * School district analysis
