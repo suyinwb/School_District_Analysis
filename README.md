@@ -117,6 +117,17 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ### School Summary
 
+
+>Thomas High School with 9th Graders Scores
+
+![Thomas High School with 9th Graders Scores](resources/Old_THS.png)
+
+>Thomas High School WITHOUT 9th Graders Scores
+
+![Thomas High School WITHOUT 9th Graders Scores](resources/Clean_THS.png)
+
+
+
 >District Summary with Thomas High School 9th Graders Scores
 
 ![District Summary with Thomas High School 9th Graders Scores](resources/Old_district_summary.png)
@@ -132,8 +143,6 @@ When we compare the overall summary for all 15 schools in this district, we can 
 * Reading scores fell from 85.8% to 85.7%
 
 
-
-
 >School Type Summary with Thomas High School 9th Graders Scores
 
 ![School Type Summary with Thomas High School 9th Graders Scores](resources/Old_school_type_summary.png)
@@ -141,6 +150,8 @@ When we compare the overall summary for all 15 schools in this district, we can 
 >School Type Summary WITHOUT Thomas High School 9th Graders Scores
 
 ![School Type Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
+
+
 
 ## Summary
 
