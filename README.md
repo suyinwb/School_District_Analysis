@@ -168,9 +168,9 @@ There is no change to the bottom 5 schools.
 
 ##### Scores by School Spending Comparison With and Without Thomas High School 9th Grader's Scores
 
->Average Math Scores by School WITHOUT Thomas High School 9th Graders Scores
+>Scores by School Spending WITHOUT Thomas High School 9th Graders Scores
 
-![Avg Math Scores By Grades From Different Schools WITHOUT Thomas High School 9th Graders Scores](resources/math_scores_school.png)
+![Scores by School Spending WITHOUT Thomas High School 9th Graders Scores](resources/Clean_scores_by_schoolspending.png)
 
 
 
