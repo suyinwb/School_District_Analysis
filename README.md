@@ -60,6 +60,8 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 students_complete.csv & schools_complete.csv
 
 #### 3. Define Strategy & Metrics
+**Resource:** Python 3.7, Anaconda, Jupyter Notebook
+
 Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
 Find the total of Thomas High School 9th graders.
 
