@@ -118,7 +118,7 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ![District Summary with Thomas High School 9th Graders Scores](resources/Old_district_summary.png)
 
->District Summary without Thomas High School 9th Graders Scores
+>District Summary WITHOUT Thomas High School 9th Graders Scores
 
 ![District Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_district_summary.png)
 
@@ -131,7 +131,7 @@ When we compare the overall summary for all 15 schools in this district, we can 
 
 ![School Type Summary with Thomas High School 9th Graders Scores](resources/Old_school_type_summary.png)
 
->School Type Summary without Thomas High School 9th Graders Scores
+>School Type Summary WITHOUT Thomas High School 9th Graders Scores
 
 ![School Type Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
 
