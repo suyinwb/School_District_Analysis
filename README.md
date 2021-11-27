@@ -117,7 +117,7 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ### School Summary
 
-
+##### Thomas High School Comparison With and Without 9th Grader's Scores
 >Thomas High School with 9th Graders Scores
 
 ![Thomas High School with 9th Graders Scores](resources/Old_THS.png)
@@ -126,7 +126,10 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ![Thomas High School WITHOUT 9th Graders Scores](resources/Clean_THS.png)
 
-
+The most significant differences in the academic dishonesty is the in the percentage passing rate for Thomas High School. After we've removed 9th graders' scores from the calculation:
+* Math scores fell from 93.27%% to 66.91%
+* Reading scores fell from 97.3% to 69.66%
+* Overall scores fell from 90.94% to 65.07%
 
 >District Summary with Thomas High School 9th Graders Scores
 
