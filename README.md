@@ -116,7 +116,7 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 >District Summary with Thomas High School 9th Graders Scores
 
-![District Summary with Thomas High School 9th Graders Scores](resources/Old_distruct_summary.png)
+![District Summary with Thomas High School 9th Graders Scores](resources/Old_district_summary.png)
 
 >District Summary without Thomas High School 9th Graders Scores
 
