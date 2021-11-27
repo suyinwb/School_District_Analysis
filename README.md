@@ -6,8 +6,7 @@ Maria, chief data scientist is responsible for analysing district schools tests 
 Note: FERPA 1974 protects students' privacy.
 
 ## Overview of Project
-Here is the list of deliverables for the analysis of the school district:
-
+Deliverables for the analysis of the school district:
 * A high-level snapshot of the district's key metrics, presented in a table format
 * An overview of the key metrics for each school, presented in a table format
 
@@ -36,17 +35,12 @@ Scores by school size
 Scores by school type
 Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-
 The written analysis has the following:
-
 Overview of the school district analysis:
-
 The purpose of this analysis is well defined (3 pt).
 Results:
-
 There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
 Summary:
-
 There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
 
 ## Analysis And Challenges
@@ -60,7 +54,7 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 students_complete.csv & schools_complete.csv
 
 #### 3. Define Strategy & Metrics
-**Resource:** Python 3.7, Anaconda, Jupyter Notebook
+**Resource:** Python 3.6, Anaconda, Jupyter Notebook
 
 1. Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
 2. Recalculate the different scores for Thomas High School by only calculating the scores for 10th to 12th graders.
@@ -97,6 +91,10 @@ Compare results for all analysis from before student scores cleaning and after s
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
+
+Results:
+There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
+
 
 First, start by nullifying the both the scores for Thomas High School 9th graders.
 
@@ -168,6 +166,11 @@ There is no change to the bottom 5 schools.
 
 ![Avg Reading Scores By Grades From Different Schools WITHOUT Thomas High School 9th Graders Scores](resources/reading_scores_school.png)
 
+##### Scores by School Spending Comparison With and Without Thomas High School 9th Grader's Scores
+
+>Average Math Scores by School WITHOUT Thomas High School 9th Graders Scores
+
+![Avg Math Scores By Grades From Different Schools WITHOUT Thomas High School 9th Graders Scores](resources/math_scores_school.png)
 
 
 
