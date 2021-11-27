@@ -36,22 +36,49 @@ Scores by school size
 Scores by school type
 Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
+
+The written analysis has the following:
+
+Overview of the school district analysis:
+
+The purpose of this analysis is well defined (3 pt).
+Results:
+
+There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
+Summary:
+
+There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
+
 ## Analysis And Challenges
 
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-To get the codes working faster and more elegantly with less traversal of the dataset.
+The students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered.
 
 #### 2. Identify the Datasource
-Same dataset is used.
+students_complete.csv & schools_complete.csv
 
 #### 3. Define Strategy & Metrics
-Look at the current code and visualise the calls and routines to refine and reduce data calls.
-Store data into arrays.
+Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
+Find the total of Thomas High School 9th graders.
+
+After we've cleaned up the student data above, recalculate for:
+* School district analysis
+* High & low performing schools_complete
+* Math & reading scores by grade for each school_data_to_load
+* Scores by school spending
+* Scores by school type
+
 
 #### 4. Data Retrieval Plan
-Use stock analysis dataset in Excel
+Read CSV with pandas
+```
+school_data_to_load = "resources/schools_complete.csv"
+student_data_to_load = "resources/students_complete.csv"
+school_data_df = pd.read_csv(school_data_to_load)
+student_data_df = pd.read_csv(student_data_to_load)
+```
 
 #### 5. Assemble & Clean the Data
 Excel VBA scripting
