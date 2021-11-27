@@ -81,14 +81,14 @@ student_data_df = pd.read_csv(student_data_to_load)
 ```
 
 #### 5. Assemble & Clean the Data
-Excel VBA scripting
+* Cleaning student names by removing prefixes & suffixes
+* Cleaning all Thomas High School 9th grades student scores by making them NaN
 
 #### 6. Analyse for Trends
-Compare timer from old codes with new codes
+Compare results for all analysis from before student scores cleaning and after student scores cleaning.
 
 #### 7. Acknowledging Limitations
-* Unable test out the new codes with a much larger dataset for a dry-run.
-* Using VBA, the scripts will run in real-time.
+* Self limitations with pandas, therefore reference Stackover Flow multiple times. 
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Results](#results)
