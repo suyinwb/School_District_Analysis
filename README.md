@@ -99,6 +99,7 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 ## Analysis
 
 First, start by nullifying the both the scores for Thomas High School 9th graders.
+
 >Old Thomas High School 9th Graders Scores
 
 ![Old Thomas High School 9th Graders Scores](resources/Old_student_data.png)
@@ -107,7 +108,7 @@ First, start by nullifying the both the scores for Thomas High School 9th grader
 
 ![New Thomas High School 9th Graders Scores](resources/Clean_student_data.png)
 
-When we check the student data, we will confirm that there are 416 students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
+When we check the student data, we will confirm that there are _**416**_ students with no scores and that corresponds to the total students from Thomas High School in 9th grade. See the code below for reference.
 
 ```
 #  Step 4. Check the student data for NaN's.
@@ -131,6 +132,7 @@ The most significant differences in the academic dishonesty is the in the percen
 * Reading scores fell from 97.3% to 69.66%
 * Overall scores fell from 90.94% to 65.07%
 
+##### District Summary Comparison With and Without Thomas High School 9th Grader's Scores
 >District Summary with Thomas High School 9th Graders Scores
 
 ![District Summary with Thomas High School 9th Graders Scores](resources/Old_district_summary.png)
@@ -139,14 +141,37 @@ The most significant differences in the academic dishonesty is the in the percen
 
 ![District Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_district_summary.png)
 
-#### Overall Summary
-
 When we compare the overall summary for all 15 schools in this district, we can see the overall passing fell from 65.17% to 64.9%.
 * Math scores fell from 74.98% to 74.8%
 * Reading scores fell from 85.8% to 85.7%
 
+##### Top Schools Comparison With and Without Thomas High School 9th Grader's Scores
+>Top Schools with Thomas High School 9th Graders Scores
 
->School Type Summary with Thomas High School 9th Graders Scores
+![Top Schools with Thomas High School 9th Graders Scores](resources/Old_top_schools.png)
+
+>Top Schools WITHOUT Thomas High School 9th Graders Scores
+
+![Top Schools WITHOUT Thomas High School 9th Graders Scores](resources/Clean_top_schools.png)
+
+As can be seen from the figures above, Thomas High School was at top 2 with the old data. However, after Thomas High School's 9th graders' scores was removed, Thomas High School is not placed in top 5 schools anymore.
+
+There is no change to the bottom 5 schools.
+
+##### Math & Reading Scores by Grade for Every School Without Thomas High School 9th Grader's Scores
+
+>Average Math Scores by School WITHOUT Thomas High School 9th Graders Scores
+
+![Avg Math Scores By Grades From Different Schools WITHOUT Thomas High School 9th Graders Scores](resources/math_scores_school.png)
+
+>Average Reading Scores by School WITHOUT Thomas High School 9th Graders Scores
+
+![Avg Reading Scores By Grades From Different Schools WITHOUT Thomas High School 9th Graders Scores](resources/reading_scores_school.png)
+
+
+
+
+=====================================
 
 ![School Type Summary with Thomas High School 9th Graders Scores](resources/Old_school_type_summary.png)
 
