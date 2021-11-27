@@ -122,7 +122,11 @@ na_student_data_df[student_data_df.isna().any(axis=1)]
 
 ![District Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_district_summary.png)
 
-When we compare the overall summary for all 15 schools in this district, we can see the overall  
+#### Overall Summary
+
+When we compare the overall summary for all 15 schools in this district, we can see the overall passing fell from 65.17% to 64.9%.
+* Math scores fell from 74.98% to 74.8%
+* Reading scores fell from 85.8% to 85.7%
 
 
 
