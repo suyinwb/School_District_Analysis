@@ -112,7 +112,7 @@ na_student_data_df = student_data_df.copy()
 na_student_data_df[student_data_df.isna().any(axis=1)]
 ```
 
-###School Summary
+### School Summary
 
 >District Summary with Thomas High School 9th Graders Scores
 
