@@ -199,7 +199,7 @@ No changes in other budget categories.
 
 ![School Type Summary WITHOUT Thomas High School 9th Graders Scores](resources/Clean_school_type_summary.png)
 
-As Thomas High School size is Charter; we can see the changes for overall scores in this category only.
+As Thomas High School type is Charter; we can see the changes for overall scores in this category only.
 * The overall passing fell from 90.62% to 90.53%
 * Math scores fell from 93.59% to 93.58%
 * Reading scores fell from 96.79% to 95.45%
