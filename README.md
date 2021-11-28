@@ -23,8 +23,7 @@ The school board has notified Maria and her supervisor that the students_complet
 
 ### Purpose
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-
+Results:
 How is the district summary affected?
 How is the school summary affected?
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
@@ -33,15 +32,8 @@ Math and reading scores by grade
 Scores by school spending
 Scores by school size
 Scores by school type
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-The written analysis has the following:
-Overview of the school district analysis:
-The purpose of this analysis is well defined (3 pt).
-Results:
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-Summary:
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 ## Analysis And Challenges
 
@@ -91,10 +83,6 @@ Compare results for all analysis from before student scores cleaning and after s
 The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
-
-Results:
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-
 
 First, start by nullifying the both the scores for Thomas High School 9th graders.
 
@@ -218,5 +206,14 @@ As Thomas High School size is Charter; we can see the changes for overall scores
 No changes in other budget categories.
 
 ## Summary
+From the analysis above, the most significant differences are due to Thomas High Schools' academic dishonesty are:
+
+1. Thomas High School overall scores fell from 90.94% to 65.07%. This means 25.9% discrepancy.
+1. Thomas High School math scores fell from 93.27%% to 66.91%. This means 26.36% discrepancy.
+1. Thomas High School reading scores fell from 97.3% to 69.66%. This means 27.64% discrepancy.
+
+From the scores above, Thomas High School went from top 5 schools (2nd ranking) to no top ranking.
+
+While we do not know for certain if all or only some of the 9th graders' scores are altered, we had to drop all the scores for 9th graders. This is a drastic move and should be used only as a last resort. 
 
 ## Appendix
