@@ -51,7 +51,7 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 
 1. Change Thomas High School 9th graders reading & math scores to NaN so we do not calculate any scores for Thomas High School 9th graders.
 2. Recalculate the different scores for Thomas High School by only calculating the scores for 10th to 12th graders.
-3. Make sure to keep Thomas High School total students (9th to 12th) for budget analysis.
+3. Make sure to keep Thomas High School total students (9th to 12th) for budget, size and type analysis
 
 After we've cleaned up the student data above, recalculate for:
 * School district analysis
