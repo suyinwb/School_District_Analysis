@@ -43,7 +43,8 @@ Summarize four changes in the updated school district analysis after reading and
 The students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Uphold state-testing standards by keeping only Thomas High School scores for 10th to 12th graders.
 
 #### 2. Identify the Datasource
-students_complete.csv & schools_complete.csv
+* students_complete.csv
+* schools_complete.csv
 
 #### 3. Define Strategy & Metrics
 **Resource:** Python 3.6, Anaconda, Jupyter Notebook
