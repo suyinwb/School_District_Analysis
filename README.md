@@ -40,7 +40,7 @@ Summarize four changes in the updated school district analysis after reading and
 ## Methodology: Analytics Paradigm
 
 #### 1. Decomposing the Ask
-The students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered.
+The students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Uphold state-testing standards by keeping only Thomas High School scores for 10th to 12th graders.
 
 #### 2. Identify the Datasource
 students_complete.csv & schools_complete.csv
