@@ -212,8 +212,10 @@ From the analysis above, the most significant differences are due to Thomas High
 1. Thomas High School math scores fell from 93.27%% to 66.91%. This means 26.36% discrepancy.
 1. Thomas High School reading scores fell from 97.3% to 69.66%. This means 27.64% discrepancy.
 
-From the scores above, Thomas High School went from top 5 schools (2nd ranking) to no top ranking.
+From the scores above, Thomas High School went from top 5 schools (2nd ranking) to no ranking.
 
-While we do not know for certain if all or only some of the 9th graders' scores are altered, we had to drop all the scores for 9th graders. This is a drastic move and should be used only as a last resort. 
+Overall scores for 15 schools when it comes to comparing budget size, school size and school type; Thomas High School's 9th graders score only caused a drop of maximum 1% in the new analysis. 
+
+While we do not know for certain if all or only some of the 9th graders' scores are altered, we had to drop all the scores for 9th graders. This is a drastic move and should be used only as a last resort.
 
 ## Appendix
