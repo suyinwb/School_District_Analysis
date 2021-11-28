@@ -56,7 +56,7 @@ The students_complete.csv file shows evidence of academic dishonesty; specifical
 After we've cleaned up the student data above, recalculate for:
 * School district analysis
 * High & low performing schools_complete
-* Math & reading scores by grade for each school_data_to_load
+* Math & reading scores by grade for each school
 * Scores by school spending
 * Scores by school type
 
